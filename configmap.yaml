@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pgadmin-configmap
+data:
+  POSTGRES_USER: "danish"
+  POSTGRES_DB: "database"
+  PGADMIN_DEFAULT_EMAIL: "secret3321@gmail.com"
+  PGADMIN_LISTEN_PORT: "8080"
